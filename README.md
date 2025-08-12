@@ -2,7 +2,7 @@
 # Send Documents, Audio, Video, and Pictures via Telegram Bot
 
 This project provides Python scripts to send documents, audio files, videos, and pictures to Telegram users using the Telegram Bot API.
-![Bot Screenshot](files\files\result.jpg)
+![Bot Screenshot](images\\result.jpg)
 
 ## Features
 
