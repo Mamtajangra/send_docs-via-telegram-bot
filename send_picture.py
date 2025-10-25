@@ -29,4 +29,10 @@ for chat_id in chat_ids:
 
 
 for thread in list_of_threads:
-    thread.join()         
+    thread.join()  
+
+
+
+
+    ## ![Result Screenshot](https://raw.githubusercontent.com/yourusername/send_docs-via-telegram-bot/main/images/result.png)
+      ## use it to add ss 
