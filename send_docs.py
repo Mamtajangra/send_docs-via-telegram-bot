@@ -1,6 +1,5 @@
 import os
 import requests
-import threading
 import dotenv
 
 
@@ -9,7 +8,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 
 
 file_path =  r'files\files\unit1_half.pdf'           ## file path name
-chat_ids = [6736740776,5412578346]                    ## chat id of people who started my bot
+chat_ids = [6736740776,325011602]                    ## chat id of people who started my bot
 
 def send_documents(chat_ids , file_path):
     url = f"https://api.telegram.org/bot{TOKEN}/sendDocument"      
@@ -23,3 +22,8 @@ def send_documents(chat_ids , file_path):
 
 
 send_documents(chat_ids , file_path)
+
+
+
+
+
